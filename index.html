@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamath Fernando — IT Undergraduate & Software Developer. Portfolio showcasing projects, skills, and professional experience at University of Vavuniya.">
+    <meta name="keywords" content="Chamath Fernando, Software Developer, IT Undergraduate, University of Vavuniya, BICT, Portfolio">
+    <meta name="author" content="Chamath Fernando">
+    <title>Chamath Fernando | IT Undergraduate & Software Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-logo" id="nav-logo">
+            <span class="logo-gradient">Chamath</span><span class="logo-dot">.</span><span class="logo-cursor">_</span>
+        </a>
+        <div class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link active" data-num="01"><span class="nav-slash">// </span>home</a>
+            <a href="#about" class="nav-link" data-num="02"><span class="nav-slash">// </span>about</a>
+            <a href="#expertise" class="nav-link" data-num="03"><span class="nav-slash">// </span>expertise</a>
+            <a href="#work" class="nav-link" data-num="04"><span class="nav-slash">// </span>work</a>
+            <a href="#experience" class="nav-link" data-num="05"><span class="nav-slash">// </span>experience</a>
+            <a href="#cv" class="nav-link" data-num="06"><span class="nav-slash">// </span>cv</a>
+            <a href="#contact" class="nav-link" data-num="07"><span class="nav-slash">// </span>contact</a>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-bar"></span>
+        </button>
+    </nav>
+
+    <!-- ==================== HERO / HOME ==================== -->
+    <section class="hero" id="home">
+        <!-- Animated background -->
+        <div class="hero-bg-layer">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="gradient-sphere sphere-3"></div>
+            <canvas id="particle-canvas"></canvas>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-name" id="hero-name">
+                <span class="name-line" data-text="CHAMATH">CHAMATH</span>
+                <span class="name-line" data-text="FERNANDO">FERNANDO</span>
+            </h1>
+            <p class="hero-tagline">IT UNDERGRADUATE & SOFTWARE DEVELOPER.</p>
+            <div class="hero-cta-row">
+                <a href="#work" class="btn-hero-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+                <a href="#contact" class="btn-hero-ghost">Get In Touch</a>
+            </div>
+        </div>
+
+        <!-- Technologies marquee -->
+        <div class="hero-tech-strip">
+            <p class="tech-strip-label">TECHNOLOGIES I WORK WITH</p>
+            <div class="tech-strip-logos">
+                <span>C++</span><span class="tech-dot">•</span>
+                <span>C</span><span class="tech-dot">•</span>
+                <span>C#</span><span class="tech-dot">•</span>
+                <span>Java</span><span class="tech-dot">•</span>
+                <span>HTML5</span><span class="tech-dot">•</span>
+                <span>CSS3</span><span class="tech-dot">•</span>
+                <span>JavaScript</span><span class="tech-dot">•</span>
+                <span>SQL</span><span class="tech-dot">•</span>
+                <span>Python</span><span class="tech-dot">•</span>
+                <span>Figma</span><span class="tech-dot">•</span>
+                <span>Git</span>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-hint">
+            <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ME ==================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-label"><span class="label-num">01</span> About Me</div>
+            <h2 class="section-heading">Who I Am</h2>
+
+            <div class="about-layout">
+                <div class="about-photo-col">
+                    <div class="about-photo-frame">
+                        <img src="assets/images/profile.png" alt="Chamath Fernando" class="about-photo" id="about-photo">
+                        <div class="photo-accent-border"></div>
+                    </div>
+                </div>
+                <div class="about-text-col">
+                    <h3 class="about-intro-title">Professional Summary</h3>
+                    <p class="about-para">
+                        I'm an enthusiastic IT undergraduate pursuing a <strong>Bachelor of Information and Communication Technology Honours [BICT (Hons)]</strong> at the <strong>University of Vavuniya</strong>, Faculty of Technological Studies. I'm passionate about building innovative software solutions across multiple domains.
+                    </p>
+                    <p class="about-para">
+                        My technical toolkit includes <strong>C++, C, C#, Java, HTML, CSS, JavaScript, SQL, and Python</strong>. From constructing automated API bots to desktop database systems and responsive web applications, I enjoy building software that solves real-world problems.
+                    </p>
+                    <p class="about-para">
+                        Beyond coding, I'm an active member of the <strong>Leo Club of University of Vavuniya</strong>, where I've driven numerous social work initiatives. I love collaborating with friends on creative software projects, and in my free time, I enjoy playing multiplayer games.
+                    </p>
+
+                    <div class="about-objective">
+                        <h4><i class="fas fa-crosshairs"></i> Career Objective</h4>
+                        <p>To leverage my strong foundation in System Analysis & Design, full-stack software development, and community leadership to secure an internship where I can contribute to impactful software engineering projects while continuously mastering cutting-edge technologies.</p>
+                    </div>
+
+                    <div class="about-interests">
+                        <span class="interest-tag"><i class="fas fa-code"></i> New Technologies</span>
+                        <span class="interest-tag"><i class="fas fa-users"></i> Collaborative Coding</span>
+                        <span class="interest-tag"><i class="fas fa-heart"></i> Social Work</span>
+                        <span class="interest-tag"><i class="fas fa-gamepad"></i> Multiplayer Gaming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION ==================== -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <div class="section-label"><span class="label-num">02</span> Education</div>
+            <h2 class="section-heading">Academic Background</h2>
+
+            <div class="edu-card">
+                <div class="edu-card-left">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-timeline-line"></div>
+                </div>
+                <div class="edu-card-right">
+                    <div class="edu-degree">Bachelor of Information and Communication Technology Honours</div>
+                    <div class="edu-abbr">BICT (Hons)</div>
+                    <div class="edu-institution"><i class="fas fa-university"></i> University of Vavuniya — Faculty of Technological Studies</div>
+                    <div class="edu-status"><i class="fas fa-clock"></i> Currently Pursuing</div>
+                    <div class="edu-coursework-title">Relevant Coursework</div>
+                    <div class="edu-tags">
+                        <span>System Analysis & Design</span>
+                        <span>Data Structures & Algorithms</span>
+                        <span>Database Management</span>
+                        <span>Web Development</span>
+                        <span>Object-Oriented Programming</span>
+                        <span>Software Engineering</span>
+                        <span>Computer Networks</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERTISE / SKILLS ==================== -->
+    <section class="section" id="expertise">
+        <div class="container">
+            <div class="section-label"><span class="label-num">03</span> Skills</div>
+            <h2 class="section-heading">My Expertise</h2>
+
+            <!-- 3-column expertise cards (Tamal Sen style) -->
+            <div class="expertise-row">
+                <div class="expertise-card">
+                    <div class="exp-card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3 class="exp-card-title"><span class="exp-highlight">Software</span> Development</h3>
+                    <div class="exp-code-tag">&lt;h3&gt;</div>
+                    <p class="exp-card-desc">Experienced in building desktop and backend applications using C++, C, C#, Java, and Python. Strong foundation in OOP and data structures.</p>
+                    <div class="exp-code-tag">&lt;/h3&gt;</div>
+                </div>
+                <div class="expertise-card">
+                    <div class="exp-card-icon"><i class="fas fa-globe"></i></div>
+                    <h3 class="exp-card-title"><span class="exp-highlight">Web</span> Development</h3>
+                    <div class="exp-code-tag">&lt;h3&gt;</div>
+                    <p class="exp-card-desc">Proficient in HTML5, CSS3, JavaScript for creating responsive and interactive websites. Experience with modern UI/UX principles.</p>
+                    <div class="exp-code-tag">&lt;/h3&gt;</div>
+                </div>
+                <div class="expertise-card">
+                    <div class="exp-card-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="exp-card-title"><span class="exp-highlight">Database</span> & API</h3>
+                    <div class="exp-code-tag">&lt;h3&gt;</div>
+                    <p class="exp-card-desc">Skilled in SQL database design, management, and API integration. Building data-driven applications with Meta Graph, Instagram, and WhatsApp APIs.</p>
+                    <div class="exp-code-tag">&lt;/h3&gt;</div>
+                </div>
+            </div>
+
+            <!-- Code snippet decoration -->
+            <div class="code-decoration">
+                <pre><code><span class="c-tag">&lt;html</span> <span class="c-attr">lang=</span><span class="c-val">"en"</span><span class="c-tag">&gt;</span>
+  <span class="c-tag">&lt;head&gt;</span>
+    <span class="c-tag">&lt;meta</span> <span class="c-attr">name=</span><span class="c-val">"viewport"</span> <span class="c-attr">content=</span><span class="c-val">"width=device-width"</span><span class="c-tag">&gt;</span>
+    <span class="c-tag">&lt;title&gt;</span>What I do<span class="c-tag">&lt;/title&gt;</span>
+  <span class="c-tag">&lt;/head&gt;</span>
+  <span class="c-tag">&lt;body&gt;</span>
+    <span class="c-tag">&lt;h1&gt;</span>Building solutions one project at a time<span class="c-tag">&lt;/h1&gt;</span>
+    <span class="c-tag">&lt;p&gt;</span>
+      Maybe I should stop tinkering with code
+      just to make the perfect portfolio.
+    <span class="c-tag">&lt;/p&gt;</span>
+    <span class="c-tag">&lt;span&gt;</span>
+      Oops, Almost forgot to say "Hello World!"!
+    <span class="c-tag">&lt;/span&gt;</span>
+  <span class="c-tag">&lt;/body&gt;</span>
+<span class="c-tag">&lt;/html&gt;</span></code></pre>
+            </div>
+
+            <!-- Technical skills grid -->
+            <h3 class="skills-sub-heading">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-tile" data-level="85">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                    <span>C++</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="80">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                    <span>C</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="88">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                    <span>C#</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="72">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <span>Java</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="92">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="88">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <span>CSS3</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="82">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="78">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                    <span>SQL</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="75">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="70">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <span>Figma</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+                </div>
+                <div class="skill-tile" data-level="74">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:74%"></div></div>
+                </div>
+            </div>
+
+            <!-- Soft skills -->
+            <h3 class="skills-sub-heading">Soft Skills</h3>
+            <div class="soft-skills-row">
+                <div class="soft-card">
+                    <div class="soft-icon"><i class="fas fa-users"></i></div>
+                    <h4>Team Collaboration</h4>
+                    <p>Experienced in group projects and helping peers with technical challenges.</p>
+                </div>
+                <div class="soft-card">
+                    <div class="soft-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Problem Solving</h4>
+                    <p>Analytical thinking and creative approach to complex technical problems.</p>
+                </div>
+                <div class="soft-card">
+                    <div class="soft-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h4>Leadership</h4>
+                    <p>Active leadership in Leo Club, organizing social welfare projects.</p>
+                </div>
+                <div class="soft-card">
+                    <div class="soft-icon"><i class="fas fa-rocket"></i></div>
+                    <h4>Quick Learner</h4>
+                    <p>Passionate about learning new technologies and industry trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WORK / PROJECTS ==================== -->
+    <section class="section section-alt" id="work">
+        <div class="container">
+            <div class="section-label"><span class="label-num">04</span> Projects</div>
+            <div class="work-header-row">
+                <div class="work-header-left">
+                    <h2 class="work-title">My<br>Work</h2>
+                    <p class="work-desc">Built diverse applications spanning desktop software, web development, UI/UX design, and automation — demonstrating versatility across multiple domains and technologies.</p>
+                </div>
+                <div class="work-header-right">
+                    <div class="featured-arrow-svg">
+                        <svg width="100" height="70" viewBox="0 0 100 70" fill="none">
+                            <path d="M5 35 Q 30 5, 55 30 T 90 25" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+                            <polygon points="85,18 95,27 83,28" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <p class="featured-label">Featured Project</p>
+                    <h3 class="featured-name">Free Game Alert Bot</h3>
+                    <a href="#" class="btn-featured" onclick="openModal('game-bot'); return false;">View Project</a>
+                </div>
+            </div>
+
+            <!-- Filter -->
+            <div class="filter-row">
+                <span class="filter-label">Filter by</span>
+                <button class="filter-btn active" data-filter="all">All <sup>4</sup></button>
+                <span class="filter-sep">/</span>
+                <button class="filter-btn" data-filter="automation">Automation <sup>1</sup></button>
+                <span class="filter-sep">/</span>
+                <button class="filter-btn" data-filter="desktop">Desktop <sup>1</sup></button>
+                <span class="filter-sep">/</span>
+                <button class="filter-btn" data-filter="web">Web Dev <sup>1</sup></button>
+                <span class="filter-sep">/</span>
+                <button class="filter-btn" data-filter="design">UI/UX <sup>1</sup></button>
+            </div>
+
+            <!-- Projects grid -->
+            <div class="projects-grid" id="projects-grid">
+                <div class="proj-card" data-cat="automation">
+                    <div class="proj-thumb">
+                        <img src="assets/images/game-alert-bot.png" alt="Free Game Alert Bot" loading="lazy">
+                        <div class="proj-hover">
+                            <button class="proj-btn" onclick="openModal('game-bot')"><i class="fas fa-expand"></i> View Details</button>
+                        </div>
+                    </div>
+                    <div class="proj-meta">
+                        <h3>Free Game Alert Bot</h3>
+                        <p>Automation / Python</p>
+                    </div>
+                </div>
+                <div class="proj-card" data-cat="desktop">
+                    <div class="proj-thumb">
+                        <img src="assets/images/waste-management.png" alt="Smart Waste Management System" loading="lazy">
+                        <div class="proj-hover">
+                            <button class="proj-btn" onclick="openModal('waste')"><i class="fas fa-expand"></i> View Details</button>
+                        </div>
+                    </div>
+                    <div class="proj-meta">
+                        <h3>Smart Waste Management System</h3>
+                        <p>Desktop Application</p>
+                    </div>
+                </div>
+                <div class="proj-card" data-cat="web">
+                    <div class="proj-thumb">
+                        <img src="assets/images/ultra-computers.png" alt="Ultra Computers Website" loading="lazy">
+                        <div class="proj-hover">
+                            <button class="proj-btn" onclick="openModal('ultra')"><i class="fas fa-expand"></i> View Details</button>
+                        </div>
+                    </div>
+                    <div class="proj-meta">
+                        <h3>Ultra Computers</h3>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="proj-card" data-cat="design">
+                    <div class="proj-thumb">
+                        <img src="assets/images/clothing-store.png" alt="Clothing Store Figma Design" loading="lazy">
+                        <div class="proj-hover">
+                            <button class="proj-btn" onclick="openModal('clothing')"><i class="fas fa-expand"></i> View Details</button>
+                        </div>
+                    </div>
+                    <div class="proj-meta">
+                        <h3>Clothing Store Design</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal-backdrop" id="modal-backdrop">
+        <div class="modal-box" id="modal-box">
+            <button class="modal-x" onclick="closeModal()" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- ==================== EXPERIENCE & ACTIVITIES ==================== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-label"><span class="label-num">05</span> Experience</div>
+            <h2 class="section-heading">Professional Experience</h2>
+
+            <div class="exp-list">
+                <div class="exp-item" data-aos>
+                    <div class="exp-bar" onclick="toggleExp(this)">
+                        <h3>Leo Club Member @ University of Vavuniya</h3>
+                        <div class="exp-bar-right">
+                            <span class="exp-period">Current</span>
+                            <span class="exp-plus"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Active member participating in community service initiatives</li>
+                            <li>Organized and led multiple social welfare projects within the university and local community</li>
+                            <li>Collaborated on planning and executing community events</li>
+                            <li>Developed leadership, event management, and team coordination skills</li>
+                            <li>Contributed to awareness campaigns and educational outreach programs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp-item" data-aos>
+                    <div class="exp-bar" onclick="toggleExp(this)">
+                        <h3>Collaborative Project Contributor</h3>
+                        <div class="exp-bar-right">
+                            <span class="exp-period">Ongoing</span>
+                            <span class="exp-plus"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Actively contribute to peers' software projects with technical expertise</li>
+                            <li>Collaborate on group assignments involving web development and database design</li>
+                            <li>Share knowledge and mentor fellow students in programming concepts</li>
+                            <li>Participate in code reviews and constructive feedback sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp-item" data-aos>
+                    <div class="exp-bar" onclick="toggleExp(this)">
+                        <h3>Personal Projects & Self-Learning</h3>
+                        <div class="exp-bar-right">
+                            <span class="exp-period">Ongoing</span>
+                            <span class="exp-plus"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Developed Free Game Alert Bot — automated multi-platform notification system using Python & Meta APIs</li>
+                            <li>Built Smart Waste Management System using C# and SQL databases</li>
+                            <li>Created Ultra Computers e-commerce website using HTML, CSS, and JavaScript</li>
+                            <li>Designed clothing store mobile app UI/UX in Figma</li>
+                            <li>Continuously exploring new frameworks, APIs, and development tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CV / RESUME ==================== -->
+    <section class="section section-alt" id="cv">
+        <div class="container">
+            <div class="section-label"><span class="label-num">06</span> Curriculum Vitae</div>
+            <h2 class="section-heading">My Resume</h2>
+
+            <div class="cv-layout">
+                <!-- Embedded CV document -->
+                <div class="cv-paper-wrap">
+                    <div class="cv-paper">
+                        <header class="cv-p-header">
+                            <div class="cv-p-name-block">
+                                <h2>CHAMATH FERNANDO</h2>
+                                <p>Software Developer | BICT (Hons) Undergraduate</p>
+                            </div>
+                            <div class="cv-p-contact-block">
+                                <span><i class="fas fa-envelope"></i> chamathfernando2002@gmail.com</span>
+                                <span><i class="fab fa-linkedin"></i> linkedin.com/in/chamath-fernando</span>
+                                <span><i class="fab fa-github"></i> github.com/C-m4th</span>
+                            </div>
+                        </header>
+
+                        <div class="cv-p-body">
+                            <div class="cv-p-section">
+                                <h3><i class="fas fa-user"></i> Professional Profile</h3>
+                                <p>Enthusiastic and results-driven IT undergraduate at University of Vavuniya pursuing BICT (Hons). Strong competencies in Python automation, C# desktop applications, web frontend technologies, SQL database management, and UI/UX prototyping. Demonstrated leadership and teamwork through active participation in the Leo Club.</p>
+                            </div>
+                            <div class="cv-p-section">
+                                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top">
+                                        <strong>Bachelor of Information & Communication Technology Honours [BICT (Hons)]</strong>
+                                        <em>Undergraduate</em>
+                                    </div>
+                                    <p class="cv-p-entry-sub">Department of ICT, Faculty of Technological Studies, University of Vavuniya</p>
+                                    <p class="cv-p-entry-detail">Key Coursework: System Analysis & Design, OOP, Database Management, Web Development, Software Engineering</p>
+                                </div>
+                            </div>
+                            <div class="cv-p-section">
+                                <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                                <div class="cv-p-skills-flex">
+                                    <div><strong>Languages:</strong> C++, C, C#, Java, JavaScript, Python, SQL</div>
+                                    <div><strong>Web:</strong> HTML5, CSS3, JavaScript</div>
+                                    <div><strong>Tools:</strong> Git, GitHub, Figma, SQL Server, Visual Studio</div>
+                                    <div><strong>APIs:</strong> Meta Graph API, Instagram API, WhatsApp Cloud API</div>
+                                </div>
+                            </div>
+                            <div class="cv-p-section">
+                                <h3><i class="fas fa-briefcase"></i> Projects</h3>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top"><strong>Free Game Alert Bot</strong><em>Python, Meta APIs</em></div>
+                                    <p class="cv-p-entry-detail">Automated cross-platform game alert system for Facebook, Instagram & WhatsApp</p>
+                                </div>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top"><strong>Smart Waste Management System</strong><em>C#, SQL</em></div>
+                                    <p class="cv-p-entry-detail">Desktop application for efficient waste collection and monitoring</p>
+                                </div>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top"><strong>Ultra Computers</strong><em>HTML, CSS, JS</em></div>
+                                    <p class="cv-p-entry-detail">E-commerce website for a computer hardware store</p>
+                                </div>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top"><strong>Clothing Store UI/UX</strong><em>Figma</em></div>
+                                    <p class="cv-p-entry-detail">High-fidelity mobile app design for a fashion retail brand</p>
+                                </div>
+                            </div>
+                            <div class="cv-p-section">
+                                <h3><i class="fas fa-heart"></i> Extracurricular</h3>
+                                <div class="cv-p-entry">
+                                    <div class="cv-p-entry-top"><strong>Leo Club of University of Vavuniya</strong><em>Active Member</em></div>
+                                    <p class="cv-p-entry-detail">Community service, social welfare projects, event organization & leadership</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CV actions -->
+                <div class="cv-actions">
+                    <h3 class="cv-actions-title">Download or Print</h3>
+                    <p class="cv-actions-desc">Get a copy of my professional CV. This document contains detailed information about my education, skills, projects, and activities.</p>
+                    <div class="cv-checks">
+                        <div class="cv-check"><i class="fas fa-check-circle"></i> Updated August 2026</div>
+                        <div class="cv-check"><i class="fas fa-check-circle"></i> Professional format</div>
+                        <div class="cv-check"><i class="fas fa-check-circle"></i> ATS-friendly layout</div>
+                    </div>
+                    <div class="cv-btns">
+                        <button class="btn-cv-download" onclick="window.print()"><i class="fas fa-download"></i> Download PDF</button>
+                        <button class="btn-cv-print" onclick="window.print()"><i class="fas fa-print"></i> Print CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-left">
+                    <h2 class="contact-title">Available for select<br>opportunities</h2>
+                    <p class="contact-subtitle">Have an exciting project you need help with?<br>Send me an email or contact me via social media!</p>
+                    <a href="mailto:chamathfernando2002@gmail.com" class="contact-email-link">chamathfernando2002@gmail.com</a>
+                    <div class="contact-links-col">
+                        <a href="https://www.linkedin.com/in/chamath-fernando-6a92b7345" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/C-m4th" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="mailto:chamathfernando2002@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-logo">
+                <span class="logo-gradient">Chamath</span><span class="logo-dot">.</span><span class="logo-cursor">_</span>
+            </div>
+            <p class="footer-copy">&copy; 2026 Chamath Fernando. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/chamath-fernando-6a92b7345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/C-m4th" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:chamathfernando2002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="go-top" id="go-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="app.js"></script>
+</body>
+</html>
