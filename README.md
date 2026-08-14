@@ -10,7 +10,7 @@ This repository contains the source code for my personal professional portfolio 
 
 ## 🌐 Live Website & Links
 - **Live Portfolio URL:** https://c-m4th.github.io/chamath-portfolio/
-- **Repository URL:** https://github.com/C-m4th/chamath-portfolio.git
+- **Repository URL:** https://github.com/C-m4th/portfolio.git
 
 ## 🛠️ Tech Stack & Tools
 - **Front-End:** HTML5, CSS3, JavaScript (Vanilla)
