@@ -9,7 +9,7 @@ This repository contains the source code for my personal professional portfolio 
 - **University:** University of Vavuniya
 
 ## 🌐 Live Website & Links
-- **Live Portfolio URL:** https://c-m4th.github.io/chamath-portfolio/
+- **Live Portfolio URL:** https://c-m4th.github.io/portfolio/
 - **Repository URL:** https://github.com/C-m4th/portfolio.git
 
 ## 🛠️ Tech Stack & Tools
